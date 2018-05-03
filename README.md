@@ -72,3 +72,16 @@ print s
 </html>
 ```
 
+#### Php
+```php
+    Class::function($param);
+```
+
+#### Css
+```css
+h2{
+	border-bottom: 1px dotted #aaa;
+	margin-bottom: 1em;
+	color: #333;
+}
+```
