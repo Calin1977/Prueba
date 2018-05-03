@@ -15,9 +15,10 @@ El lenguaje Markdown es un lenguaje de texto plano que utiliza una sintaxis para
   - Elemento 2
 
 Lista de definiciones
-
-Primer termino
-: Primera definición
+<dl>
+  <dt>Primer termino</dt>
+  <dd>Primera definición</dd>
+</dl>
 
 ### Links e Imágenes
 [Link a otro archivo][Link1]
@@ -27,22 +28,16 @@ Primer termino
 [link1]: link1.md "Abrir Archivo"
 [Logo]: Logo.png
 
-### Abreviaturas
-La especificación HTML es mantenida por el W3C.
-
-*[HTML]: Hyper Text Markup Language
-*[W3C]:  World Wide Web Consortium
-
 ### Formato de Texto
+~~Texto tachado~~  
 **Texto en negritas**  
 *Esto es cursiva*  
 ***Esto es negrita y cursiva***  
 `segmento de código`  
-> Esto es parte de un bloque de cita.
+> Esto es parte de un bloque de cita. — Mahatma Gandhi
 ~~~
 Esto es un párrafo de código.
 ~~~
-Esto es un texto con nota al pie [^1]
 
 ### Tablas
 Columna1    |Columna2   |Columna3   |Columna4
@@ -50,4 +45,30 @@ Columna1    |Columna2   |Columna3   |Columna4
 Alineado a la Izq  |Texto Centrado  |Alineado a la Der |Texto c4f1
 Texto c1f2  |Texto c2f2 |Texto c3f2 |Texto c4f2
 
-[^1]: Esto es una nota al pie de página.
+### Lenguajes de Programación
+#### JavaScript
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+#### Python
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+#### Html
+```html
+<html>
+  <header>
+    <title>
+      HW2018
+    </title>
+  </header>
+  <body>
+    Hello World!
+  </body/
+</html>
+```
+
